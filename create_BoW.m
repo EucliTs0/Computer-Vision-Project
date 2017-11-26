@@ -139,7 +139,7 @@ for k = 1:length(fileList_test)
     testIm_histograms = cat(1, testIm_histograms, H);
     
 end
-save('histSPATIAL8000_centers1000.mat', 'trainIm_histograms', 'valIm_histograms', 'testIm_histograms');
+save('histSPATIAL_centers1000.mat', 'trainIm_histograms', 'valIm_histograms', 'testIm_histograms');
 
 
 
