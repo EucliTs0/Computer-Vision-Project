@@ -2,7 +2,7 @@
 
 <center>
 <img src="./bow.png"><p style="color: #666;">
-An example of a typical bag of words classification pipeline. Figure by <a href="https://fr.mathworks.com/help/vision/ug/image-classification-with-bag-of-visual-words.html"></center>
+An example of a typical bag of words classification pipeline. Figure by <a href="https://fr.mathworks.com/help/vision/ug/image-classification-with-bag-of-visual-words.html"</a></center>
 
 <h1>Computer Vision Project: Object Recognition using BoW as first approach and CNN as second approach.<br>
 </h1> 
