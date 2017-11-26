@@ -2,7 +2,7 @@ clear all
 clc 
 close all
 
-%run('vlfeat/toolbox/vl_setup')
+run('vlfeat/toolbox/vl_setup')
 
 train_Folder = 'VOC2007_train/JPEGImages'; %In the train folder, the validation set
 %is included, so we have to separate it.
@@ -47,16 +47,13 @@ fileList_val = fileList_train(colsF);
 fileList_train(colsF) = [];
 
 %%
-% num_words = 1000;
-% samples_per_word = 500;
-% num_trainIm = numel(fileList_train) ;
- %d_perIm = ceil(num_words * samples_per_word / num_trainIm) ;
+
  d_perIm = 300;
 
   
   %Build vocabulary (bow) using training set
   
-%opts = {'Verbose', 2, 'Sizes', 8, 'Step', 30};
+
 opts = {'norm', 'fast', 'floatdescriptors', ...
              'step', 4, ...
              'size', 8, ...
