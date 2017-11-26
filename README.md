@@ -12,7 +12,7 @@ An example of a typical bag of words classification pipeline. Figure by <a href=
 <p> 
 </p><ul> 
   
-  <li><i>Partial</i> You have to download <a href="http://www.vlfeat.org/download.html">VLFeat 0.9.17 binary package</a></li> 
+  <li>You have to download <a href="http://www.vlfeat.org/download.html">VLFeat 0.9.17 binary package</a></li> 
   <li>VL Feat Matlab reference: <a href="http://www.vlfeat.org/matlab/matlab.html">http://www.vlfeat.org/matlab/matlab.html</a>
   <li>MatConvNet Matlab reference: <a href="http://http://www.vlfeat.org/matconvnet/">http://http://www.vlfeat.org/matconvnet/</a>
   <li>To be able to use CNN: <a href="http://www.robots.ox.ac.uk/~vgg/software/deep_eval/">http://www.robots.ox.ac.uk/~vgg/software/deep_eval/</a>  
