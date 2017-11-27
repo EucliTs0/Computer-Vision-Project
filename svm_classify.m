@@ -1,5 +1,6 @@
 %After you run the creat_BoW.m file and you get your histogram encodings for all the images saved in a .mat file, 
-you can load here the .mat file and feed the histograms to a linear SVM, by using homogeneous kernel maps in order to keep the linearity.
+%you can load here the .mat file and feed the histograms to a linear SVM, by using homogeneous kernel maps in order to 
+%keep the linearity.
 
 load ('histSPATIAL_centers1000.mat');
 
