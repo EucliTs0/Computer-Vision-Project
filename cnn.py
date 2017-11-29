@@ -7,6 +7,22 @@ from numpy import asarray, array, ravel
 image_data = "../../MATLAB/cv_project_sem2/VOCtrainval_06-Nov-2007/VOCdevkit/VOC2007/JPEGImages/"
 image_annotations = "../../MATLAB/cv_project_sem2/VOCtrainval_06-Nov-2007/VOCdevkit/VOC2007/Annotations/"
 
+def compute_save_features(img_folder, model, filename):
+    f = open(filename, 'w')
+    i = 0
+    for image in listdir(img_folder):
+        img_num = image[:-4]
+        features = ravel(model.predict(asarray([asarray(Image.open(img_folder + image).resize((256,256))) / 255.0])))
+        f.write(img_num)
+        for num in features:
+            f.write(" " + str(num))
+        f.write("\n")
+        i += 1
+        if i % 500 == 0:
+            print(i)
+    f.close()
+    
+    
 def load_images(img_folder):
     images = {}
     i = 0
@@ -48,9 +64,10 @@ def write_features(keys, features, filename):
         f.write("\n")
     f.close()
 
-imgs = load_images(image_data)
-print(len(imgs))
+#imgs = load_images(image_data)
+#print(len(imgs))
 mod = VGG19(include_top=False,input_shape=(256,256,3),pooling='max')
-keys, features = get_features(imgs, mod)
-print(len(imgs))
-write_features(keys, features, "normalized_features.txt")
+compute_save_features(image_data, mod, "normalized_features.txt")
+#keys, features = get_features(imgs, mod)
+#print(len(imgs))
+#write_features(keys, features, "normalized_features.txt")
