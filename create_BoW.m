@@ -48,6 +48,7 @@ fileList_train(colsF) = [];
 
 %%
 
+%Keep 300 descriptors per image
  d_perIm = 300;
 
   
