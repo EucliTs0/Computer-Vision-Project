@@ -1,0 +1,413 @@
+Ada Boost: Parameters:n_estimators: [50,70,100]
+bus 1
+{"n_estimators": 100}
+0.702515684872
+Average Precision Score:0.757035819329
+Accuracy:0.0
+chair 2
+{"n_estimators": 70}
+0.576930753413
+Average Precision Score:0.556091382721
+Accuracy:0.0
+cat 3
+{"n_estimators": 70}
+0.805169187781
+Average Precision Score:0.794656909287
+Accuracy:0.0
+cow 4
+{"n_estimators": 100}
+0.547758394818
+Average Precision Score:0.525382128334
+Accuracy:0.0
+bird 5
+{"n_estimators": 100}
+0.866338034742
+Average Precision Score:0.824317441037
+Accuracy:0.0
+bicycle 6
+{"n_estimators": 100}
+0.736774575117
+Average Precision Score:0.746438090602
+Accuracy:0.0
+pottedplant 7
+{"n_estimators": 70}
+0.374984581785
+Average Precision Score:0.439986223958
+Accuracy:0.0
+sofa 8
+{"n_estimators": 100}
+0.5441626477
+Average Precision Score:0.499310726974
+Accuracy:0.0
+horse 9
+{"n_estimators": 100}
+0.7823561601
+Average Precision Score:0.806745876635
+Accuracy:0.0
+train 10
+{"n_estimators": 70}
+0.879291077149
+Average Precision Score:0.892678373796
+Accuracy:0.0
+sheep 11
+{"n_estimators": 50}
+0.540889653045
+Average Precision Score:0.59429005884
+Accuracy:0.0
+aeroplane 12
+{"n_estimators": 100}
+0.91711315721
+Average Precision Score:0.919125272887
+Accuracy:0.0
+car 13
+{"n_estimators": 100}
+0.831206508822
+Average Precision Score:0.835894310685
+Accuracy:0.0
+dog 14
+{"n_estimators": 100}
+0.67950909845
+Average Precision Score:0.729573826252
+Accuracy:0.0
+person 15
+{"n_estimators": 100}
+0.890717494133
+Average Precision Score:0.900029002851
+Accuracy:0.0
+tvmonitor 16
+{"n_estimators": 100}
+0.545127484667
+Average Precision Score:0.543731018499
+Accuracy:0.0
+bottle 17
+{"n_estimators": 70}
+0.350808510034
+Average Precision Score:0.323997406437
+Accuracy:0.0
+diningtable 18
+{"n_estimators": 70}
+0.489515629324
+Average Precision Score:0.570682457786
+Accuracy:0.0
+boat 19
+{"n_estimators": 100}
+0.761544787828
+Average Precision Score:0.80259675003
+Accuracy:0.0
+motorbike 20
+{"n_estimators": 70}
+0.718928924548
+Average Precision Score:0.73846326523
+Accuracy:0.0
+0.677082117277
+
+Random Forest: Parameters:n_estimators: [50,100], 'max_depth': [5,7,9]
+bus 1
+{"max_depth": 5, "n_estimators": 100}
+0.719701917673
+Average Precision Score:0.763908035012
+Accuracy:0.0
+chair 2
+{"max_depth": 7, "n_estimators": 100}
+0.659499764955
+Average Precision Score:0.629643007333
+Accuracy:0.0
+cat 3
+{"max_depth": 5, "n_estimators": 100}
+0.840033933444
+Average Precision Score:0.838036043517
+Accuracy:0.0
+cow 4
+{"max_depth": 7, "n_estimators": 100}
+0.549090626452
+Average Precision Score:0.545244168667
+Accuracy:0.0
+bird 5
+{"max_depth": 9, "n_estimators": 100}
+0.869767389855
+Average Precision Score:0.850581527309
+Accuracy:0.0
+bicycle 6
+{"max_depth": 9, "n_estimators": 100}
+0.711240288083
+Average Precision Score:0.777366081801
+Accuracy:0.0
+pottedplant 7
+{"max_depth": 5, "n_estimators": 100}
+0.444685364091
+Average Precision Score:0.472197163516
+Accuracy:0.0
+sofa 8
+{"max_depth": 7, "n_estimators": 100}
+0.586473187955
+Average Precision Score:0.581303532796
+Accuracy:0.0
+horse 9
+{"max_depth": 7, "n_estimators": 100}
+0.782497025355
+Average Precision Score:0.838302564348
+Accuracy:0.0
+train 10
+{"max_depth": 9, "n_estimators": 100}
+0.900262880667
+Average Precision Score:0.904328484862
+Accuracy:0.0
+sheep 11
+{"max_depth": 7, "n_estimators": 100}
+0.534236823749
+Average Precision Score:0.679490211618
+Accuracy:0.0
+aeroplane 12
+{"max_depth": 9, "n_estimators": 100}
+0.915379433059
+Average Precision Score:0.902721788951
+Accuracy:0.0
+car 13
+{"max_depth": 7, "n_estimators": 100}
+0.8621073904
+Average Precision Score:0.865379754738
+Accuracy:0.0
+dog 14
+{"max_depth": 9, "n_estimators": 100}
+0.751574893236
+Average Precision Score:0.808775707907
+Accuracy:0.0
+person 15
+{"max_depth": 9, "n_estimators": 100}
+0.913026302821
+Average Precision Score:0.916525317607
+Accuracy:0.0
+tvmonitor 16
+{"max_depth": 5, "n_estimators": 100}
+0.627675402066
+Average Precision Score:0.638498525609
+Accuracy:0.0
+bottle 17
+{"max_depth": 7, "n_estimators": 100}
+0.461767766125
+Average Precision Score:0.430648001958
+Accuracy:0.0
+diningtable 18
+{"max_depth": 5, "n_estimators": 100}
+0.634475367396
+Average Precision Score:0.663846967029
+Accuracy:0.0
+boat 19
+{"max_depth": 5, "n_estimators": 100}
+0.802753921752
+Average Precision Score:0.812978772478
+Accuracy:0.0
+motorbike 20
+{"max_depth": 9, "n_estimators": 100}
+0.737565277558
+Average Precision Score:0.727078896999
+Accuracy:0.0
+0.715190747835
+
+Ada Boost: Parameters:n_estimators: [150,200]
+pottedplant 1
+{"n_estimators": 200}
+0.377981550579
+Average Precision Score:0.434987820592
+Accuracy:0.0
+car 2
+{"n_estimators": 200}
+0.839940895563
+Average Precision Score:0.845062637284
+Accuracy:0.0
+train 3
+{"n_estimators": 200}
+0.894688949277
+Average Precision Score:0.906721657881
+Accuracy:0.0
+cow 4
+{"n_estimators": 200}
+0.555856335882
+Average Precision Score:0.559971772073
+Accuracy:0.0
+dog 5
+{"n_estimators": 150}
+0.706469737031
+Average Precision Score:0.732153256567
+Accuracy:0.0
+bicycle 6
+{"n_estimators": 200}
+0.74156717903
+Average Precision Score:0.753479258587
+Accuracy:0.0
+sheep 7
+{"n_estimators": 200}
+0.571335625915
+Average Precision Score:0.681051294994
+Accuracy:0.0
+diningtable 8
+{"n_estimators": 150}
+0.49513790122
+Average Precision Score:0.60341054125
+Accuracy:0.0
+aeroplane 9
+{"n_estimators": 200}
+0.930637143824
+Average Precision Score:0.924026685957
+Accuracy:0.0
+bottle 10
+{"n_estimators": 200}
+0.362290374404
+Average Precision Score:0.378420717828
+Accuracy:0.0
+motorbike 11
+{"n_estimators": 200}
+0.719755813618
+Average Precision Score:0.763979603299
+Accuracy:0.0
+bird 12
+{"n_estimators": 200}
+0.867054782506
+Average Precision Score:0.829601432126
+Accuracy:0.0
+tvmonitor 13
+{"n_estimators": 200}
+0.561591784726
+Average Precision Score:0.578788911995
+Accuracy:0.0
+boat 14
+{"n_estimators": 200}
+0.779495593494
+Average Precision Score:0.81274782562
+Accuracy:0.0
+bus 15
+{"n_estimators": 200}
+0.7188135374
+Average Precision Score:0.783951790896
+Accuracy:0.0
+chair 16
+{"n_estimators": 200}
+0.591687385273
+Average Precision Score:0.571456268602
+Accuracy:0.0
+sofa 17
+{"n_estimators": 200}
+0.551376998495
+Average Precision Score:0.514393986591
+Accuracy:0.0
+cat 18
+{"n_estimators": 150}
+0.818786470572
+Average Precision Score:0.801578378962
+Accuracy:0.0
+horse 19
+{"n_estimators": 200}
+0.793607016162
+Average Precision Score:0.821656812163
+Accuracy:0.0
+person 20
+{"n_estimators": 200}
+0.894774630399
+Average Precision Score:0.902800050506
+Accuracy:0.0
+0.688642485268
+Avg Precision Test:0.710012035189
+
+Random Forest: Parameters:n_estimators: [150,200], 'max_depth': [5,7,9]
+pottedplant 1
+{"max_depth": 5, "n_estimators": 200}
+0.452383829424
+Average Precision Score:0.484107643066
+Accuracy:0.0
+car 2
+{"max_depth": 7, "n_estimators": 200}
+0.867483037107
+Average Precision Score:0.868171228849
+Accuracy:0.0
+train 3
+{"max_depth": 7, "n_estimators": 200}
+0.901467642291
+Average Precision Score:0.909390673889
+Accuracy:0.0
+cow 4
+{"max_depth": 7, "n_estimators": 200}
+0.558152829606
+Average Precision Score:0.552307506395
+Accuracy:0.0
+dog 5
+{"max_depth": 9, "n_estimators": 200}
+0.758932676813
+Average Precision Score:0.81750856496
+Accuracy:0.0
+bicycle 6
+{"max_depth": 5, "n_estimators": 200}
+0.716347172088
+Average Precision Score:0.767211133688
+Accuracy:0.0
+sheep 7
+{"max_depth": 7, "n_estimators": 200}
+0.55317660857
+Average Precision Score:0.704501745015
+Accuracy:0.0
+diningtable 8
+{"max_depth": 5, "n_estimators": 200}
+0.644200115481
+Average Precision Score:0.671390671229
+Accuracy:0.0
+aeroplane 9
+{"max_depth": 9, "n_estimators": 200}
+0.917883898212
+Average Precision Score:0.907598236944
+Accuracy:0.0
+bottle 10
+{"max_depth": 5, "n_estimators": 200}
+0.475240332564
+Average Precision Score:0.440300155086
+Accuracy:0.0
+motorbike 11
+{"max_depth": 9, "n_estimators": 200}
+0.742509660904
+Average Precision Score:0.734731466977
+Accuracy:0.0
+bird 12
+{"max_depth": 7, "n_estimators": 200}
+0.873084870357
+Average Precision Score:0.850244671963
+Accuracy:0.0
+tvmonitor 13
+{"max_depth": 7, "n_estimators": 200}
+0.636249408852
+Average Precision Score:0.656428627511
+Accuracy:0.0
+boat 14
+{"max_depth": 9, "n_estimators": 200}
+0.808764506391
+Average Precision Score:0.830629017659
+Accuracy:0.0
+bus 15
+{"max_depth": 5, "n_estimators": 200}
+0.729965013505
+Average Precision Score:0.770154992577
+Accuracy:0.0
+chair 16
+{"max_depth": 5, "n_estimators": 200}
+0.660614712509
+Average Precision Score:0.638375160789
+Accuracy:0.0
+sofa 17
+{"max_depth": 7, "n_estimators": 200}
+0.597370088341
+Average Precision Score:0.589862576764
+Accuracy:0.0
+cat 18
+{"max_depth": 5, "n_estimators": 200}
+0.845836885596
+Average Precision Score:0.841296056879
+Accuracy:0.0
+horse 19
+{"max_depth": 7, "n_estimators": 200}
+0.788198500922
+Average Precision Score:0.84236935993
+Accuracy:0.0
+person 20
+{"max_depth": 9, "n_estimators": 200}
+0.915456968854
+Average Precision Score:0.916073502589
+Accuracy:0.0
+0.722165937919
+Avg Precision Test:0.739632649638
