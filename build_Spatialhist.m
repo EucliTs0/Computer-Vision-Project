@@ -13,7 +13,8 @@ height = size(I, 1);
 %L2 normalize the features
 d = normalize_features(d);
 
-   
+%%Code for spatial histograms has been obtained from VLFEAT library examples%%
+
 [index , ~] = vl_kdtreequery(forest , centers , d);
 %[drop, index] = min(vl_alldist(centers, single(d)), [], 1) ;
 for i = 1:length(spatialX)
