@@ -38,7 +38,7 @@ Using CNN as our second approach, we use a pre-trained CNN model and we exploit 
 
 For detailed information regarding this project:
 
-<a href="Computer Vision Project Report">https://git.overleaf.com/12576280xwnhvgmqjfmd</a>
+Report: <a href="Computer Vision Project Report">https://www.overleaf.com/read/swdcjfdcjcvk</a>
 
 
 
