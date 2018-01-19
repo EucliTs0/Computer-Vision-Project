@@ -33,8 +33,14 @@ BoW: We use the training and validation set to extract dense SIFT features and f
 This task is a multi-label classification, because each image may contain more than one object. To classify our images, we create 20 binary classifiers (one for each class) and for each classifier we get the scores when we put the the testing data. In the end we can use all the weights from the 20 classifiers to classify our objects. For our experiments we use the PASCAL VOC 2007 dataset.
 </p>
 <p>
-Using CNN as our second approach, we use a pre-trained CNN model and we exploit the full connected layer to use it as our feature representation, which we feed into an SVM classifier. <a href="http://www.robots.ox.ac.uk/~vgg/software/deep_eval/">http://www.robots.ox.ac.uk/~vgg/software/deep_eval/</a>  
+Using CNN as our second approach, we use a pre-trained CNN model and we exploit the full connected layer to use it as our feature representation. We use SVM, Adaboost and Random Forest as our classifiers. While the first approach is implemented in MATLAB, the CNN one is implemented in Python. 
 </p>
+
+For detailed information regarding this project:
+
+<a href="Computer Vision Project Report">https://git.overleaf.com/12576280xwnhvgmqjfmd</a>
+
+
 
 
 
