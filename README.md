@@ -15,7 +15,7 @@ An example of a typical bag of words classification pipeline. Figure by <a href=
   <li>You have to download <a href="http://www.vlfeat.org/download.html">VLFeat 0.9.17 binary package</a></li> 
   <li>VL Feat Matlab reference: <a href="http://www.vlfeat.org/matlab/matlab.html">http://www.vlfeat.org/matlab/matlab.html</a>
   <li>MatConvNet Matlab reference: <a href="http://www.vlfeat.org/matconvnet/">http://http://www.vlfeat.org/matconvnet/</a>
-  <li>To be able to use CNN: <a href="http://www.robots.ox.ac.uk/~vgg/software/deep_eval/">http://www.robots.ox.ac.uk/~vgg/software/deep_eval/</a>
+  
   <li>You also need to download the PASCAL VOC 2007 dataset and the VOC developement kit in order to generate the images labels: <a href="http://http://host.robots.ox.ac.uk/pascal/VOC/voc2007/">http://http://host.robots.ox.ac.uk/pascal/VOC/voc2007/</a>
   
 
@@ -39,6 +39,8 @@ Using CNN as our second approach, we use a pre-trained CNN model and we exploit 
 For detailed information regarding this project:
 
 Report: <a href="Computer Vision Project Report">https://www.overleaf.com/read/swdcjfdcjcvk</a>
+
+Presentation: <a href="Computer Vision Project Presentation">https://www.overleaf.com/read/wzxndywjpkyh</a>
 
 
 
